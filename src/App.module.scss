@@ -1,0 +1,5 @@
+@import "./assets/typography.scss";
+
+.App {
+	@extend %body-text;
+}

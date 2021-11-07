@@ -1,0 +1,50 @@
+.hero {
+	padding-bottom: 48px;
+
+	&_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&_profilePic {
+		height: 380px;
+	}
+
+	&_info {
+		font-size: 24px;
+	}
+
+	&_specialInfo {
+		font-size: 32px;
+		color: purple;
+		text-decoration: none;
+
+		&:hover {
+			color: indigo;
+			text-decoration: none;
+		}
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	.hero {
+		&_top {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&_profilePic {
+			height: 280px;
+		}
+
+		&_info {
+			font-size: 20px;
+		}
+
+		&_specialInfo {
+			font-size: 26px;
+		}
+	}
+}
