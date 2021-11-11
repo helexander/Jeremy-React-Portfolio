@@ -10,7 +10,7 @@ const Contact = () => {
             <label className={styles.contact_title}>Contact</label>
             <div className={styles.contact_container}>
                 <div className={styles.contact_left}>
-                    <p>Want to connect? Contact me on any of these social platforms</p>
+                    <p>Do you wish to connect or collaborate? Contact me on any of the following platforms. </p>
                     <Socials />
                 </div>
                 <div className={styles.download}>

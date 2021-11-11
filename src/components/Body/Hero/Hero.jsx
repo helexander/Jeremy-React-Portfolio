@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import { init } from "ityped";
 import Socials from '../../../common/Socials';
 import styles from "./Hero.module.scss";
 
 const Hero = () => {
+    const textRef = useRef();
+
+    useEffect(() => {
+        init(textRef.current, {
+            showCursor: false,
+            startDelay: 100,
+            backDelay: 2000,
+            backSpeed: 60,
+            strings: ["Passionate", "Solution-oriented", "Test-driven"],
+        })
+    }, []);
+
     return (
         <div className={styles.hero}>
             <div className={styles.hero_top}>
@@ -11,7 +24,7 @@ const Hero = () => {
                     <span>
                         <a href="#projects" className={styles.hero_specialInfo}>full-stack developer</a>
                     </span>
-                    <br /> Passionate and solution-oriented developer with decent
+                    <br /> <span className={styles.hero_info_about} ref={textRef}></span> <br />developer with decent
                     experience with software development.
                 </div>
                 <div className={styles.hero_picture}>

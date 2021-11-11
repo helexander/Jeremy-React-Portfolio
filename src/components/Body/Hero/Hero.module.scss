@@ -1,3 +1,5 @@
+@import "../../../assets/palette";
+
 .hero {
 	padding-bottom: 48px;
 
@@ -13,11 +15,15 @@
 
 	&_info {
 		font-size: 24px;
+
+		&_about {
+			color: $special-font-col;
+		}
 	}
 
 	&_specialInfo {
 		font-size: 32px;
-		color: purple;
+		color: $primary-font-col;
 		text-decoration: none;
 
 		&:hover {

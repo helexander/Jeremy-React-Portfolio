@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
                     {project.github &&
                         <a className={styles.project_link} href={project.github}>
                             <div className={styles.project_link_button}>
-                                <i className="devicon-github-original colored"></i>GitHub
+                                <i className="devicon-github-original"></i>GitHub
                             </div>
                         </a>}
                 </div>

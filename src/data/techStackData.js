@@ -47,6 +47,10 @@ export const TechStackData = [
                 name: "Firebase",
                 icon: <i class="devicon-firebase-plain colored"></i>,
             },
+            {
+                name: "Spring",
+                icon: <i class="devicon-spring-plain colored"></i>,
+            }
         ],
     },
 ];

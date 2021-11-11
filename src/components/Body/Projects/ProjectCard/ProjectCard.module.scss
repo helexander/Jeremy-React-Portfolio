@@ -1,3 +1,5 @@
+@import "../../../../assets/palette";
+
 .project {
 	&_card {
 		display: flex;
@@ -29,7 +31,7 @@
 
 	&_tag {
 		padding: 4px 8px;
-		background-color: aquamarine;
+		background-color: $primary-badge-bg-col;
 		border-radius: 4px;
 		margin-right: 6px;
 		margin-bottom: 4px;
@@ -49,7 +51,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: aquamarine;
+		background-color: $secondary-badge-bg-col;
+		color: $default-font-col;
 		width: max-content;
 		padding: 4px 8px;
 		border-radius: 4px;
