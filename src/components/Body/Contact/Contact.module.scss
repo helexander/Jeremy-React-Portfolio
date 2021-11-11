@@ -2,9 +2,15 @@
 @import "../../../assets/palette";
 
 .contact {
-	display: flex;
-	flex-direction: column;
-	flex: 1;
+	transform: translateY(50px);
+	&_container {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		background-color: $secondary-bg-col;
+		padding: 5px;
+		border-radius: 16px;
+	}
 
 	&_title {
 		@extend %section_title;

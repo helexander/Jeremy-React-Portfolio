@@ -1,4 +1,5 @@
 @import "../../../assets/typography.scss";
+@import "../../../assets/palette";
 
 .tech {
 	display: flex;
@@ -18,6 +19,12 @@
 			font-size: 24px;
 			font-weight: 600;
 		}
+	}
+
+	&_container {
+		padding: 5px;
+		background-color: $secondary-bg-col;
+		border-radius: 16px;
 	}
 
 	&_list {
