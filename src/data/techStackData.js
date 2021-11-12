@@ -4,23 +4,23 @@ export const TechStackData = [
         list: [
             {
                 name: "ReactJS",
-                icon: <i class="devicon-react-original colored"></i>,
+                icon: <i className="devicon-react-original colored"></i>,
             },
             {
                 name: "Javascript",
-                icon: <i class="devicon-javascript-plain colored"></i>,
+                icon: <i className="devicon-javascript-plain colored"></i>,
             },
             {
                 name: "SASS",
-                icon: <i class="devicon-sass-original colored"></i>,
+                icon: <i className="devicon-sass-original colored"></i>,
             },
             {
                 name: "HTML",
-                icon: <i class="devicon-html5-plain colored"></i>,
+                icon: <i className="devicon-html5-plain colored"></i>,
             },
             {
                 name: "CSS",
-                icon: <i class="devicon-css3-plain colored"></i>,
+                icon: <i className="devicon-css3-plain colored"></i>,
             },
         ],
     },
@@ -29,27 +29,27 @@ export const TechStackData = [
         list: [
             {
                 name: "C++",
-                icon: <i class="devicon-cplusplus-plain colored"></i>,
+                icon: <i className="devicon-cplusplus-plain colored"></i>,
             },
             {
                 name: "JAVA",
-                icon: <i class="devicon-java-plain colored"></i>,
+                icon: <i className="devicon-java-plain colored"></i>,
             },
             {
                 name: "NodeJS",
-                icon: <i class="devicon-nodejs-plain colored"></i>,
+                icon: <i className="devicon-nodejs-plain colored"></i>,
             },
             {
                 name: "MySQL",
-                icon: <i class="devicon-mysql-plain colored"></i>,
+                icon: <i className="devicon-mysql-plain colored"></i>,
             },
             {
                 name: "Firebase",
-                icon: <i class="devicon-firebase-plain colored"></i>,
+                icon: <i className="devicon-firebase-plain colored"></i>,
             },
             {
                 name: "Spring",
-                icon: <i class="devicon-spring-plain colored"></i>,
+                icon: <i className="devicon-spring-plain colored"></i>,
             }
         ],
     },

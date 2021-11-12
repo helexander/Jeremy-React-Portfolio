@@ -9,21 +9,22 @@ const TechStack = () => {
     return (
         <div className={styles.tech}>
             <Separator />
-            <label className={styles.tech_title}>Tech Stack</label>
             <div className={styles.tech_container}>
-                {data.map((item, index) => {
-                    return (
-                        <div key={index} className={styles.tech_section}>
-                            <label className={styles.tech_section_title}>{item.type}</label>
-                            <div className={styles.tech_list}>
-                                {item.list.map((specTech, index) => {
-                                    return <TechCard key={index} specTech={specTech} />
-                                })}
+                <label className={styles.tech_title}>Tech Stack</label>
+                <div className={styles.tech_container}>
+                    {data.map((item, index) => {
+                        return (
+                            <div key={index} className={styles.tech_section}>
+                                <label className={styles.tech_section_title}>{item.type}</label>
+                                <div className={styles.tech_list}>
+                                    {item.list.map((specTech, index) => {
+                                        return <TechCard key={index} specTech={specTech} />
+                                    })}
+                                </div>
                             </div>
-                        </div>
-                    )
-                })}
-
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

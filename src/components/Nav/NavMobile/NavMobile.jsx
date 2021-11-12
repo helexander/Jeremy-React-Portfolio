@@ -5,7 +5,7 @@ const NavMobile = ({ isOpen, setIsOpen }) => {
     return (
         <div className={styles.mobile}>
             <div className={styles.closeIcon} onClick={() => setIsOpen(!isOpen)}>
-                <i class="fi fi-rr-cross-circle"></i>
+                <i className="fi fi-rr-cross-circle"></i>
             </div>
             <div className={styles.mobile_options}>
                 <div className={styles.mobile_option}>

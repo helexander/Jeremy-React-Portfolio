@@ -21,11 +21,13 @@ const Hero = () => {
             <div className={styles.hero_top}>
                 <div className={styles.hero_info}>
                     <p>Meet Jeremy 👋🏼</p>
+
+                    <span className={styles.hero_info_about} ref={textRef}></span> <br />
                     <span>
                         <a href="#projects" className={styles.hero_specialInfo}>full-stack developer</a>
-                    </span>
-                    <br /> <span className={styles.hero_info_about} ref={textRef}></span> <br />developer with decent
-                    experience with software development.
+                    </span><br />
+                    with decent
+                    experience in software development.
                 </div>
                 <div className={styles.hero_picture}>
                     <img src={require('../../../assets/images/profilepic.png').default} alt="Profile of Jeremy" className={styles.hero_profilePic} />

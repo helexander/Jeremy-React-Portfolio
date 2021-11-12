@@ -30,6 +30,10 @@
 			text-decoration: none;
 			color: black;
 			display: flex;
+
+			&:hover {
+				color: $secondary-font-col;
+			}
 		}
 	}
 }
