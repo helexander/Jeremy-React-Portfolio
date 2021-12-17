@@ -1,5 +1,7 @@
-@import "./assets/typography.scss";
+@import "./assets/typography";
+@import "./assets/palette";
 
 .App {
 	@extend %body-text;
+	background-color: $primary-bg-col;
 }

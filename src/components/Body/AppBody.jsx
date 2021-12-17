@@ -8,16 +8,16 @@ import TechStack from './TechStack/TechStack';
 const AppBody = () => {
     return (
         <div className={styles.appBody}>
-            <section id="hero">
+            <section id="hero" className={styles.appSection}>
                 <Hero />
             </section>
-            <section id="tech">
+            <section id="tech" className={styles.appSection}>
                 <TechStack />
             </section>
-            <section id="projects">
+            <section id="projects" className={styles.appSection}>
                 <Projects />
             </section>
-            <section id="contact">
+            <section id="contact" className={styles.appSection}>
                 <Contact />
             </section>
         </div>

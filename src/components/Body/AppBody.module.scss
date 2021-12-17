@@ -1,4 +1,10 @@
-.appBody {
-	padding: 12px;
-	padding-bottom: 36px;
+.app {
+	&Body {
+		padding: 12px;
+		padding-bottom: 36px;
+	}
+
+	// &Section {
+	// 	height: 100vh;
+	// }
 }

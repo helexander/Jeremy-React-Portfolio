@@ -1,3 +1,5 @@
+@import "../../../../assets/palette";
+
 .project {
 	&_card {
 		display: flex;
@@ -10,6 +12,7 @@
 
 	&_photo {
 		width: 40%;
+		border-radius: 18px;
 	}
 
 	&_info {
@@ -29,10 +32,12 @@
 
 	&_tag {
 		padding: 4px 8px;
-		background-color: aquamarine;
+		background-color: $primary-badge-bg-col;
+		box-shadow: 3px 5px 10px #bedde9, inset -3px -5px 10px #3f606d;
 		border-radius: 4px;
-		margin-right: 6px;
+		margin-right: 8px;
 		margin-bottom: 4px;
+		margin-top: 4px;
 	}
 
 	&_links {
@@ -49,18 +54,29 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: aquamarine;
+		background-color: $secondary-badge-bg-col;
+		box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+			-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+		color: $default-font-col;
 		width: max-content;
 		padding: 4px 8px;
 		border-radius: 4px;
 		font-size: 16px;
-		margin-right: 6px;
+		margin-right: 10px;
+
+		&:hover {
+			box-shadow: none;
+		}
 
 		& i {
 			display: flex;
 			align-items: center;
 			margin-right: 4px;
 		}
+	}
+
+	&_about {
+		margin-top: 15px;
 	}
 }
 

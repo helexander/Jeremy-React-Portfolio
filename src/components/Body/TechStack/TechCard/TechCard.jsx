@@ -5,7 +5,6 @@ const TechCard = ({ specTech }) => {
     return (
         <div className={styles.specTech_card}>
             <div className={styles.specTech_icon}>{specTech.icon}</div>
-            <label className={styles.specTech_name}>{specTech.name}</label>
         </div>
     )
 }

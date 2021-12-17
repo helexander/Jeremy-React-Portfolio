@@ -1,3 +1,5 @@
+@import "../../assets/palette";
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -28,7 +30,7 @@
 .nameBrand {
 	display: flex;
 	font-size: 36px;
-	color: blueviolet;
+	color: $primary-font-col;
 	font-weight: 800;
 }
 
