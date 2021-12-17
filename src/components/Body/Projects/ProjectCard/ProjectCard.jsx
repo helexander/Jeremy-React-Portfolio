@@ -2,6 +2,16 @@ import React from 'react';
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = ({ project }) => {
+    const playGif = (gif_img) => {
+        if (gif_img.src.endsWith(".gif")) {
+            gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
+        } else {
+            gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
+        }
+
+        return gif_img.src;
+    }
+
     return (
         <div className={styles.project_card}>
             <div className={styles.project_info}>
@@ -30,7 +40,7 @@ const ProjectCard = ({ project }) => {
                     })}
                 </div>
             </div>
-            <img src={project.image} className={styles.project_photo} alt={project.title} />
+            <img src={project.imageStatic} className={styles.project_photo} alt={project.title} data-alt={project.image} />
         </div>
     )
 }

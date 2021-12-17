@@ -9,6 +9,7 @@ export const ProjectData = [
         github: "https://github.com/helexander/SimonsGame",
         image:
             require('../assets/project_img/simonsgame.gif').default,
+        imageStatic: require('../assets/project_img/simonsgame-0.png').default,
     },
     {
         id: 3,
@@ -20,6 +21,7 @@ export const ProjectData = [
         github: "https://github.com/helexander/js-calculator",
         image:
             require('../assets/project_img/calc.gif').default,
+        imageStatic: require('../assets/project_img/calc-0.png').default,
     },
     {
         id: 2,
@@ -31,6 +33,7 @@ export const ProjectData = [
         github: "https://github.com/helexander/react-runescape-store/tree/main/react-runescape-store",
         image:
             require('../assets/project_img/ecomstore.gif').default,
+        imageStatic: require('../assets/project_img/ecomstore-0.png').default,
     },
 
     {
@@ -45,5 +48,6 @@ export const ProjectData = [
         github: "https://github.com/helexander/googlebooks-api",
         image:
             require('../assets/project_img/googlebook.gif').default,
+        imageStatic: require('../assets/project_img/googlebook-0.png').default,
     },
 ];
