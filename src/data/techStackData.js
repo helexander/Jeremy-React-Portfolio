@@ -7,6 +7,14 @@ export const TechStackData = [
                 icon: <i className="devicon-react-original colored"></i>,
             },
             {
+                name: "VueJS",
+                icon: <i className="devicon-vuejs-plain colored"></i>,
+            },
+            {
+                name: "TypeScript",
+                icon: <i className="devicon-typescript-original colored"></i>,
+            },
+            {
                 name: "Javascript",
                 icon: <i className="devicon-javascript-plain colored"></i>,
             },

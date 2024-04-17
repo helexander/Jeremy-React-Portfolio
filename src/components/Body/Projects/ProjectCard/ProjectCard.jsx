@@ -18,14 +18,14 @@ const ProjectCard = ({ project }) => {
                 <label className={styles.project_title}>{project.title}</label>
                 <div className={styles.project_links}>
                     {project.demo &&
-                        <a className={styles.project_link} href={project.demo}>
+                        <a className={styles.project_link} href={project.demo} target='_blank' rel='noreferrer'>
                             <div className={styles.project_link_button}>
                                 <i className="fi fi-rr-globe"></i>Demo
                             </div>
                         </a>
                     }
                     {project.github &&
-                        <a className={styles.project_link} href={project.github}>
+                        <a className={styles.project_link} href={project.github} target='_blank' rel='noreferrer'>
                             <div className={styles.project_link_button}>
                                 <i className="devicon-github-original"></i>GitHub
                             </div>
