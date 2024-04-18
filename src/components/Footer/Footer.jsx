@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
             <Navbar bg="dark" variant="dark" style={{ marginTop: "30px" }}>
                 <Container className={`justify-content-center ${styles.footer}`}>
-                    &copy; Jeremy Chee
+                    &copy; Jeremy Chee {new Date().getFullYear()}
                 </Container>
             </Navbar>
         </div>

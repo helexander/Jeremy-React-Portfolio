@@ -66,11 +66,11 @@ export const ProjectData = [
         id: 6,
         title: "Polling Interface",
         about:
-            "A web-based application which allows users to retrieve an array of books from the Google Books API. It informs users of some basic information of the books related to the search query. The purpose of this project was to implement an existing web API and to fetch data into an existing program.",
+            "A mobile application which emulates the behaviours of a basic poll. Upon providing a polling question with a minimum of 3 options, the user would be able to cast their votes on the given options. The option with the most votes would appear on the top of the list. The purpose of this project was to implement the basics of React Native.",
         tags: [
             "React Native", "JavaScript", "HTML", "CSS", "SASS"
         ],
-        demo: "https://helexander.github.io/googlebooks-api/",
+        // demo: "https://helexander.github.io/googlebooks-api/",
         github: "https://github.com/helexander/WiW_Poll",
         imageStatic: require('../assets/project_img/project-3.png').default,
     },
@@ -78,12 +78,12 @@ export const ProjectData = [
         id: 7,
         title: "Event Cinema Now Showing",
         about:
-            "A web-based application which allows users to retrieve an array of books from the Google Books API. It informs users of some basic information of the books related to the search query. The purpose of this project was to implement an existing web API and to fetch data into an existing program.",
+            "A web-based application which allows users to retrieve a list of movies from Event Cinemas API. It allows users to have an overview of the movies that are currently being shown at the cinemas. Users can also filter the movies based on genres.",
         tags: [
             "VueJS", "TypeScript", "JavaScript", "HTML", "CSS", "SASS"
         ],
-        demo: "https://helexander.github.io/googlebooks-api/",
-        github: "https://github.com/helexander/googlebooks-api",
+        // demo: "https://helexander.github.io/googlebooks-api/",
+        github: "https://github.com/helexander/NoMossTechMovieApp/tree/main/movie-app",
         imageStatic: require('../assets/project_img/project-2.png').default,
     },
     {
