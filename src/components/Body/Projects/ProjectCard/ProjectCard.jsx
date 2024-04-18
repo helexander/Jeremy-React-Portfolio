@@ -2,15 +2,15 @@ import React from 'react';
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = ({ project }) => {
-    const playGif = (gif_img) => {
-        if (gif_img.src.endsWith(".gif")) {
-            gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
-        } else {
-            gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
-        }
+    // const playGif = (gif_img) => {
+    //     if (gif_img.src.endsWith(".gif")) {
+    //         gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "png";
+    //     } else {
+    //         gif_img.src = gif_img.src.substring(0, gif_img.src.length - 3) + "gif";
+    //     }
 
-        return gif_img.src;
-    }
+    //     return gif_img.src;
+    // }
 
     return (
         <div className={styles.project_card}>
