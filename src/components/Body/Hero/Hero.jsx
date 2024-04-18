@@ -27,10 +27,10 @@ const Hero = () => {
                         <a href="#projects" className={styles.hero_specialInfo}>full-stack developer</a>
                     </span><br />
                     with decent
-                    experience in software development.
+                    experience in business and software development.
                 </div>
                 <div className={styles.hero_picture}>
-                    <img src={require('../../../assets/images/profilepic.png').default} alt="Profile of Jeremy" className={styles.hero_profilePic} />
+                    <img src={require('../../../assets/images/profile-picture.png').default} alt="Profile of Jeremy" className={styles.hero_profilePic} />
                 </div>
             </div>
             <Socials />
