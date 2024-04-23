@@ -1,4 +1,4 @@
-@import "../../../assets/palette";
+@import '../../../assets/palette';
 
 .hero {
 	padding-bottom: 48px;
@@ -11,8 +11,10 @@
 
 	&_profilePic {
 		height: 380px;
+		width: 390px;
 		border-radius: 50%;
-		box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+		box-shadow:
+			12px 12px 16px 0 rgba(0, 0, 0, 0.25),
 			-8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 	}
 
@@ -42,10 +44,6 @@
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-		}
-
-		&_profilePic {
-			height: 280px;
 		}
 
 		&_info {
